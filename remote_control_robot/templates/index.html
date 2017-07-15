@@ -41,31 +41,31 @@
 				var key = event.keyCode;
 				switch (key) {
 					case 87:
-					    //startup
+						//startup
 						doGet('control_robot?cmd=0')
 						break;
 					case 83:
-                        //stop
+						//stop
 						doGet('control_robot?cmd=1');
 						break;
 					case 81:
-					    //left
+						//left
 						doGet('control_robot?cmd=3');
 						break;
 					case 69:
-                        //right
+						//right
 						doGet('control_robot?cmd=4');
 						break;
 					case 38:
-					    //speedup
+						//speedup
 						doGet('control_robot?cmd=5');
 						break;
 					case 40:
-					    //speeddown
+						//speeddown
 						doGet('control_robot?cmd=6');
 						break;
 					case 82:
-					    //backward
+						//backward
 						doGet('control_robot?cmd=7');
 						break;
 				}
@@ -93,7 +93,7 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 				<div class="item active">
-					<!--<img id="bg" src="{{ url_for('video_feed') }}">-->
+					<img id="bg" src="{{ url_for('video_feed') }}">
 					<!-- <img src="http://placehold.it/800x400" alt="..."> -->
 					<div class="carousel-caption">
 						<h2>Camera</h2>
